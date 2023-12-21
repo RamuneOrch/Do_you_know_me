@@ -1,0 +1,16 @@
+.form-control {
+    margin-bottom: 15px;
+}
+
+.upload-form {
+    margin-top: 20px;
+}
+
+.custom-upload-btn {
+    background-color: rgb(197, 97, 114);
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: transparent;
+}

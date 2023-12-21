@@ -1,0 +1,145 @@
+*,
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header-logo > a {
+  color: black;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  border-bottom: 5px solid #411152;
+}
+
+.header-logo {
+  width: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Nanum Brush Script";
+  margin-left: 20px;
+}
+
+.member-add {
+  margin-right: 25px;
+}
+
+.btn-custom {
+  outline: none;
+  background-color: white;
+  border: 3px solid #411152;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Nanum Brush Script";
+}
+
+.btn-custom:hover {
+  background-color: #411152;
+  color: white;
+}
+
+.container1 {
+  height: 100%;
+  background-image: linear-gradient(150deg, #e53a81, #180f4e);
+}
+
+.main-logo {
+  padding-top: 50px;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.74);
+  border-bottom: 5px solid #411152;
+}
+
+.main-title {
+  height: 100%;
+  font-family: "Gaegu";
+  font-size: 100px;
+  font-weight: 700;
+  animation: blinkText 2s infinite alternate;
+}
+
+@keyframes blinkText {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  10% {
+    color: rgb(255, 217, 0);
+  }
+  20% {
+    color: rgb(238, 255, 0);
+  }
+  30% {
+    color: rgb(157, 255, 0);
+  }
+  40% {
+    color: rgb(0, 255, 106);
+  }
+  50% {
+    color: rgb(0, 217, 255);
+  }
+  60% {
+    color: rgb(0, 17, 255);
+  }
+
+  70% {
+    color: rgb(119, 0, 255);
+  }
+  80% {
+    color: rgb(172, 121, 255);
+  }
+  90% {
+    color: rgb(225, 0, 255);
+  }
+  100% {
+    color: rgb(88, 0, 122);
+  }
+}
+
+.card-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1500px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > div {
+  width: 600px;
+  height: 60px;
+  border-radius: 25px;
+  border: 5px solid #bbb1bd;
+  background-color: white;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 3px;
+  margin-top: 20px;
+}
+
+.member-btn {
+  font-family: "Gaegu";
+}

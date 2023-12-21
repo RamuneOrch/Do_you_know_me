@@ -1,0 +1,120 @@
+.cardbg {
+  width: 250px;
+  height: 320px;
+  outline: #411152 solid 5px;
+  border-radius: 3rem;
+  margin: 10px auto 10px auto;
+  background-color: white;
+  position: relative;
+  margin-top: 70px;
+  bottom: 0px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.cardbg:hover {
+  scale: 1.05;
+}
+
+.cardtop {
+  width: 250px;
+  height: 160px;
+  background: linear-gradient(285.05deg, #23104f 0%, #e53a81 88.66%),
+    linear-gradient(0deg, #411152, #411152);
+  outline: #411152 solid 5px;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: linear-gradient(90deg, #110d2d 0%, #c55c8e 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-image-slice: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.innercircle1 {
+  width: 140px;
+  height: 140px;
+  background-image: url("../image/123.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: solid 5px transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.innercircle2 {
+  width: 140px;
+  height: 140px;
+  background-image: url("../image/001.PNG");
+  background-size: cover;
+  background-repeat: none;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: solid 5px transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.innercircle3 {
+  width: 140px;
+  height: 140px;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: none;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: solid 5px transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.innercircle4 {
+  width: 140px;
+  height: 140px;
+  background-image: url("https://ca.slack-edge.com/T06B9PCLY1E-U06AAJZ1TFH-e709e5a5b6dd-512");
+  background-size: 116%;
+  background-position: center center;
+  background-repeat: none;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: solid 5px transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 400;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 135px;
+  font-family: "Gaegu";
+}
+
+.name2 {
+  text-align: center;
+  font-family: "Gaegu";
+  font-size: 22px;
+}
