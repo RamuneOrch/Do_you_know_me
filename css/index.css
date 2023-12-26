@@ -6,19 +6,25 @@ html {
 }
 
 .header-logo > a {
-  color: black;
+  color: white;
   text-decoration: none;
+}
+
+.header-logo > a > div {
+  font-weight: bold;
+  font-size: 25px;
 }
 
 html,
 body {
   height: 100%;
+  background-image: linear-gradient(150deg, #e53a81, #180f4e);
 }
 
 .header {
   width: 100%;
   position: absolute;
-  background-color: white;
+  background-image: linear-gradient(150deg, #e53a81, #180f4e);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,6 +40,14 @@ body {
   margin-left: 20px;
 }
 
+.header-spring {
+  font-family: "Nanum Brush Script";
+
+  font-weight: bold;
+  font-size: 27px;
+  margin-top: 5px;
+}
+
 .member-add {
   margin-right: 25px;
 }
@@ -41,7 +55,7 @@ body {
 .btn-custom {
   outline: none;
   background-color: white;
-  border: 3px solid #411152;
+  border: 3px solid #b34170;
   border-radius: 20px;
   transition: all 0.2s ease-in-out;
   padding: 0 20px;
@@ -51,27 +65,39 @@ body {
 }
 
 .btn-custom:hover {
-  background-color: #411152;
+  background-color: #b34170;
   color: white;
 }
 
 .container1 {
   height: 100%;
-  background-image: linear-gradient(150deg, #e53a81, #180f4e);
 }
 
 .main-logo {
   padding-top: 50px;
   height: 300px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.74);
+  background-color: white;
   border-bottom: 5px solid #411152;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  background-image: url("https://pbs.twimg.com/media/E8VRGehVUAIuRek?format=jpg&name=small");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 400px;
+  height: 245px;
+  box-shadow: inset 0px 0px 15px 14px rgb(255, 255, 255);
 }
 
 .main-title {
   height: 100%;
   font-family: "Gaegu";
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 700;
   animation: blinkText 2s infinite alternate;
 }
@@ -117,8 +143,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 50px auto;
+  margin: 40px auto;
   max-width: 1500px;
+  flex-wrap: wrap;
 }
 
 .footer {
@@ -127,19 +154,102 @@ body {
   align-items: center;
 }
 
-.footer > div {
-  width: 600px;
-  height: 60px;
+.footer-main {
   border-radius: 25px;
   border: 5px solid #bbb1bd;
+  padding-bottom: 5px;
   background-color: white;
+  margin-top: 15px;
+}
+
+.footer-text1 {
+  width: 500px;
+  border-radius: 25px;
   font-weight: bold;
   font-size: 27px;
   text-align: center;
   padding-top: 3px;
-  margin-top: 20px;
+}
+
+.footer-text2 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(134, 134, 134);
 }
 
 .member-btn {
   font-family: "Gaegu";
+}
+
+.detail-member {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.member-image {
+  width: 350px;
+  height: 400px;
+  margin-right: 30px;
+  background-size: cover;
+  background-repeat: none;
+  background-position: bottom;
+  border-radius: 20px;
+}
+
+.image1 {
+  background-image: url("../image/japan.jpg");
+}
+.image4 {
+  background-image: url("../image/장석빈.jpg");
+}
+.image3 {
+  background-image: url("../image/오연주.jpg");
+}
+.image2 {
+  background-image: url("../image/22572204741.jpg");
+  background-position: top center;
+}
+
+.member-intro {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.member-intro > div {
+  margin-bottom: 15px;
+}
+
+.member-intro > div:nth-child(5) {
+  margin-bottom: 8px;
+}
+
+.member-intro-box {
+  width: 350px;
+  height: 140px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.171);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.blog {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.blog-color {
+  background-color: rgba(0, 0, 0, 0.123);
+  padding: 0 30px;
+  border-radius: 20px;
+}
+
+.blog > div > a {
+  text-decoration: none;
+  color: black;
 }

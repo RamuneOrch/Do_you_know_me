@@ -18,7 +18,7 @@
 
 .cardtop {
   width: 250px;
-  height: 160px;
+  height: 150px;
   background: linear-gradient(285.05deg, #23104f 0%, #e53a81 88.66%),
     linear-gradient(0deg, #411152, #411152);
   outline: #411152 solid 5px;
@@ -48,6 +48,7 @@
   background-repeat: none;
   background-origin: border-box;
   background-clip: content-box, border-box;
+  background-position: bottom center;
   border: solid 5px transparent;
   border-radius: 50%;
   position: absolute;
@@ -55,7 +56,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.innercircle2 {
+.innercircle3 {
   width: 140px;
   height: 140px;
   background-image: url("../image/001.PNG");
@@ -70,13 +71,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.innercircle3 {
+.innercircle2 {
   width: 140px;
   height: 140px;
-  background-image: url("");
-  background-size: cover;
+  background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg");
+  background-size: 110%;
   background-repeat: none;
   background-origin: border-box;
+  background-position: center right;
   background-clip: content-box, border-box;
   border: solid 5px transparent;
   border-radius: 50%;
@@ -90,7 +92,7 @@
   height: 140px;
   background-image: url("https://ca.slack-edge.com/T06B9PCLY1E-U06AAJZ1TFH-e709e5a5b6dd-512");
   background-size: 116%;
-  background-position: center center;
+  background-position: right top;
   background-repeat: none;
   background-origin: border-box;
   background-clip: content-box, border-box;
